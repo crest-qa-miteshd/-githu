@@ -1,0 +1,564 @@
+src/test/java/awesomecucumber/apis/ApiRequest.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/apis/ApiRequest.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/apis/ApiRequest.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/apis/ApiRequest.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/apis/ApiRequest.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'endPoint' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/ApiRequest.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'headers' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/ApiRequest.java:26:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+src/test/java/awesomecucumber/apis/ApiRequest.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cookies' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/ApiRequest.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'formParams' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/ApiRequest.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/apis/ApiRequest.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cookies' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/ApiRequest.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'endPoint' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/apis/CartApi.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/apis/CartApi.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/apis/CartApi.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/apis/CartApi.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/apis/CartApi.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cookies' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/apis/CartApi.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'header' could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'headers' could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'formParams' could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:38:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+src/test/java/awesomecucumber/apis/CartApi.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/awesomecucumber/apis/CartApi.java:45:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/test/java/awesomecucumber/apis/CartApi.java:46:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/test/java/awesomecucumber/apis/CartApi.java:49:	LawOfDemeter:	LawOfDemeter: Call to `getDetailedCookies` on foreign value `response` (degree 1)
+src/test/java/awesomecucumber/apis/SpecBuilder.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/apis/SpecBuilder.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/apis/SpecBuilder.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/apis/SpecBuilder.java:22:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/apis/SpecBuilder.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/apis/SpecBuilder.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:15:	DataClass:	DataClass: The class 'FrameworkConstants' is suspected to be a Data Class (WOC=0.000%, NOPA=20, NOAM=0, WMC=0)
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like NO
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:39:	LongVariable:	LongVariable: Avoid excessively long variable names like DIRECTORY_ENV_CONFIG
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:43:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:46:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:46:	LongVariable:	LongVariable: Avoid excessively long variable names like REPORTS_CUCUMBER_LOCATION
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:47:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:47:	LongVariable:	LongVariable: Avoid excessively long variable names like REPORTS_CUCUMBER_LOCAL
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/constants/FrameworkConstants.java:48:	LongVariable:	LongVariable: Avoid excessively long variable names like REPORTS_ZIPPED_FILE_NAME
+src/test/java/awesomecucumber/context/TestContext.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/context/TestContext.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/context/TestContext.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/context/TestContext.java:25:	DataClass:	DataClass: The class 'TestContext' is suspected to be a Data Class (WOC=0.000%, NOPA=5, NOAM=0, WMC=1)
+src/test/java/awesomecucumber/context/TestContext.java:25:	TestClassWithoutTestCases:	TestClassWithoutTestCases: The class 'TestContext' might be a test class, but it contains no test cases.
+src/test/java/awesomecucumber/context/TestContext.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/context/TestContext.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/context/TestContext.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/context/TestContext.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/context/TestContext.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/customtype/CustomDataTableType.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/customtype/CustomDataTableType.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/customtype/CustomDataTableType.java:20:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/awesomecucumber/customtype/CustomDataTableType.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/customtype/CustomDataTableType.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/customtype/CustomDataTableType.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'entry' is not assigned and could be declared final
+src/test/java/awesomecucumber/customtype/CustomParameterType.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/customtype/CustomParameterType.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/customtype/CustomParameterType.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/awesomecucumber/customtype/CustomParameterType.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/customtype/CustomParameterType.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:15:	DataClass:	DataClass: The class 'BillingDetails' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=15)
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingAddressOne' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingCity' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingFirstName' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingLastName' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingEmail' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingStateName' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingZip' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingFirstName' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingLastName' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingAddressOne' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingCity' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:72:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingStateName' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:80:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingZip' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/BillingDetails.java:88:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingEmail' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/Cookies.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/domainobjects/Cookies.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/domainobjects/Cookies.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/awesomecucumber/domainobjects/Cookies.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/domainobjects/Cookies.java:23:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/test/java/awesomecucumber/domainobjects/Cookies.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/Cookies.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cookies' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/Cookies.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/domainobjects/Cookies.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/Cookies.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'seleniumCookies' could be declared final
+src/test/java/awesomecucumber/domainobjects/Cookies.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'seleniumCookie' could be declared final
+src/test/java/awesomecucumber/domainobjects/Cookies.java:38:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/domainobjects/Product.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/domainobjects/Product.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/domainobjects/Product.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/domainobjects/Product.java:15:	DataClass:	DataClass: The class 'Product' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/test/java/awesomecucumber/domainobjects/Product.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/Product.java:17:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/awesomecucumber/domainobjects/Product.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/Product.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/domainobjects/Product.java:20:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/test/java/awesomecucumber/domainobjects/Product.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/domainobjects/Product.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/Product.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/Product.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/Product.java:35:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/awesomecucumber/domainobjects/Product.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/Product.java:41:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/awesomecucumber/domainobjects/Product.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/ProductList.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/domainobjects/ProductList.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/domainobjects/ProductList.java:15:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/awesomecucumber/domainobjects/ProductList.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/domainobjects/ProductList.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/domainobjects/ProductList.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/domainobjects/ProductList.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'products' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/ProductList.java:18:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/test/java/awesomecucumber/domainobjects/ProductList.java:19:	ArrayIsStoredDirectly:	ArrayIsStoredDirectly: The user-supplied array 'products' is stored directly.
+src/test/java/awesomecucumber/domainobjects/ProductList.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/domainobjects/ProductList.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/test/java/awesomecucumber/domainobjects/ProductList.java:22:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/awesomecucumber/domainobjects/ProductList.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/test/java/awesomecucumber/domainobjects/ProductList.java:28:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/test/java/awesomecucumber/enums/EndPoint.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/enums/EndPoint.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/enums/EndPoint.java:15:	CommentRequired:	CommentRequired: Enum comments are required
+src/test/java/awesomecucumber/enums/EndPoint.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/enums/EndPoint.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'url' is not assigned and could be declared final
+src/test/java/awesomecucumber/enums/EnvType.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/enums/EnvType.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/enums/EnvType.java:15:	CommentRequired:	CommentRequired: Enum comments are required
+src/test/java/awesomecucumber/enums/EnvType.java:16:	ShortVariable:	ShortVariable: Avoid variables with short names like QA
+src/test/java/awesomecucumber/enums/WaitStrategy.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/enums/WaitStrategy.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/enums/WaitStrategy.java:15:	CommentRequired:	CommentRequired: Enum comments are required
+src/test/java/awesomecucumber/factory/DriverFactory.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/factory/DriverFactory.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/factory/DriverFactory.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/factory/DriverFactory.java:29:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/factory/DriverFactory.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/factory/DriverFactory.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'browser' is not assigned and could be declared final
+src/test/java/awesomecucumber/factory/DriverFactory.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'driver' could be declared final
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:22:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/factory/PageFactoryManager.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/hooks/MyHooks.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/hooks/MyHooks.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/hooks/MyHooks.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/hooks/MyHooks.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scenario' is not assigned and could be declared final
+src/test/java/awesomecucumber/hooks/MyHooks.java:43:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/hooks/MyHooks.java:44:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/test/java/awesomecucumber/hooks/MyHooks.java:57:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/hooks/MyHooks.java:63:	LawOfDemeter:	LawOfDemeter: Access to field `driver` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/hooks/MyHooks.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scenario' is not assigned and could be declared final
+src/test/java/awesomecucumber/hooks/MyHooks.java:68:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/hooks/MyHooks.java:69:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/test/java/awesomecucumber/hooks/MyHooks.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'screenshot' could be declared final
+src/test/java/awesomecucumber/hooks/MyHooks.java:108:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:113:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:13:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:35:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'host' is not assigned and could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'port' is not assigned and could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:45:	UseObjectForClearerAPI:	UseObjectForClearerAPI: Rather than using a lot of String arguments, consider using a container object for those values.
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'attachFiles' is not assigned and could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'subject' is not assigned and could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'toAddress' is not assigned and could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'properties' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'auth' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:60:	MissingOverride:	MissingOverride: The method 'getPasswordAuthentication()' is missing an @Override annotation.
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'session' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'msg' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'addressTo' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:72:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'messageBodyPart' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'multipart' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'filePath' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:93:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:93:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'attachPart' could be declared final
+src/test/java/awesomecucumber/java_Mail_API/EmailAttachmentsSender.java:98:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:13:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:20:	DataClass:	DataClass: The class 'EmailConfig' is suspected to be a Data Class (WOC=0.000%, NOPA=6, NOAM=0, WMC=0)
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like TO
+src/test/java/awesomecucumber/java_Mail_API/EmailConfig.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/pages/BasePage.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/pages/BasePage.java:30:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'endPoint' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'overlay' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'overlays' could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:46:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/pages/BasePage.java:47:	UseCollectionIsEmpty:	UseCollectionIsEmpty: Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/test/java/awesomecucumber/pages/BasePage.java:49:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/pages/BasePage.java:51:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/pages/BasePage.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'value' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'element'
+src/test/java/awesomecucumber/pages/BasePage.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'element' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:65:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:65:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'by' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:65:	ShortVariable:	ShortVariable: Avoid variables with short names like by
+src/test/java/awesomecucumber/pages/BasePage.java:69:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'element' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'element' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'by' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:77:	ShortVariable:	ShortVariable: Avoid variables with short names like by
+src/test/java/awesomecucumber/pages/BasePage.java:81:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'element' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:85:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'element' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:89:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:89:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'element' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:89:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getElementElementAttribute_Value' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/awesomecucumber/pages/BasePage.java:93:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/BasePage.java:93:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customAttribute' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/BasePage.java:93:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'element' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CartPage.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/pages/CartPage.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/pages/CartPage.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/pages/CartPage.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CartPage.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CartPage.java:25:	LongVariable:	LongVariable: Avoid excessively long variable names like productQuantityFld
+src/test/java/awesomecucumber/pages/CartPage.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CartPage.java:28:	LongVariable:	LongVariable: Avoid excessively long variable names like proceedToCheckoutBtn
+src/test/java/awesomecucumber/pages/CartPage.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CartPage.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CartPage.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CartPage.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CartPage.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/pages/CheckoutPage.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/pages/CheckoutPage.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:26:	LongVariable:	LongVariable: Avoid excessively long variable names like billingFirstnameFld
+src/test/java/awesomecucumber/pages/CheckoutPage.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like billingLastNameFld
+src/test/java/awesomecucumber/pages/CheckoutPage.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:32:	LongVariable:	LongVariable: Avoid excessively long variable names like billingAddressOneFld
+src/test/java/awesomecucumber/pages/CheckoutPage.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:38:	LongVariable:	LongVariable: Avoid excessively long variable names like billingStateDropDown
+src/test/java/awesomecucumber/pages/CheckoutPage.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:41:	LongVariable:	LongVariable: Avoid excessively long variable names like alternateBillingStateDropDown
+src/test/java/awesomecucumber/pages/CheckoutPage.java:44:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:47:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:50:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:53:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:55:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:57:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingFirstName' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:66:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingLastName' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:71:	LongVariable:	LongVariable: Avoid excessively long variable names like billingAddressLineOne
+src/test/java/awesomecucumber/pages/CheckoutPage.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingAddressLineOne' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingCity' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:82:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:82:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingStateName' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:92:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/pages/CheckoutPage.java:93:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'element' could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:107:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:107:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingZip' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:112:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:112:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingEmail' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:117:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:117:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setBillingDetails' should not return any type except void linguistically
+src/test/java/awesomecucumber/pages/CheckoutPage.java:117:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingDetails' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/CheckoutPage.java:127:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/CheckoutPage.java:133:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/pages/ProductPage.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/pages/ProductPage.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/ProductPage.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/ProductPage.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/ProductPage.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'direction' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/ProductPage.java:76:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/pages/StorePage.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/pages/StorePage.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/pages/StorePage.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/pages/StorePage.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/StorePage.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/StorePage.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/pages/StorePage.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/StorePage.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/StorePage.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/pages/StorePage.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/test/java/awesomecucumber/pages/StorePage.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'raw' could be declared final
+src/test/java/awesomecucumber/pages/StorePage.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bytes' could be declared final
+src/test/java/awesomecucumber/pages/StorePage.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'utf8Encoded' could be declared final
+src/test/java/awesomecucumber/pages/StorePage.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'addToCartBtn' could be declared final
+src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:13:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:30:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:30:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:30:	TestClassWithoutTestCases:	TestClassWithoutTestCases: The class 'MyTestNGRunnerTest' might be a test class, but it contains no test cases.
+src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:32:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:36:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:37:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:41:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:44:	LawOfDemeter:	LawOfDemeter: Access to field `cookies` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cartApi' could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:45:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'product'
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:45:	LawOfDemeter:	LawOfDemeter: Access to field `productList` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:45:	LawOfDemeter:	LawOfDemeter: Call to `getProductByName` on foreign value `context.productList` (degree 2)
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:48:	LawOfDemeter:	LawOfDemeter: Access to field `cookies` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:49:	LawOfDemeter:	LawOfDemeter: Access to field `cookies` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/CartStepDefinitions.java:50:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/awesomecucumber/stepdefinitions/CheckoutStepDefinitions.java:54:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billingDetails' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:34:	LawOfDemeter:	LawOfDemeter: Access to field `billingDetails` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/CustomerStepDefinitions.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:21:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'driver'.
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:22:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'billingDetails'.
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/MyStepDefinitions.java:25:	LawOfDemeter:	LawOfDemeter: Access to field `driver` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:38:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:51:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:52:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:57:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'currentQuantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'direction' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:68:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:69:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newQuantity' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:74:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:74:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:78:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/ProductStepDefinitions.java:78:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'text' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:39:	LawOfDemeter:	LawOfDemeter: Access to field `product` on foreign value `context` (degree 1)
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/stepdefinitions/StoreStepDefinitions.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/test/java/awesomecucumber/utils/ConfigLoader.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/utils/ConfigLoader.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/utils/ConfigLoader.java:13:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/awesomecucumber/utils/ConfigLoader.java:29:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	ClassWithOnlyPrivateConstructorsShouldBeFinal: This class has only private constructors and may be final
+src/test/java/awesomecucumber/utils/ConfigLoader.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/utils/ConfigLoader.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/utils/ConfigLoader.java:32:	LongVariable:	LongVariable: Avoid excessively long variable names like SEND_EMAIL_TO_USERS
+src/test/java/awesomecucumber/utils/ConfigLoader.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/utils/ConfigLoader.java:38:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/test/java/awesomecucumber/utils/ConfigLoader.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/utils/ConfigLoader.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'env' could be declared final
+src/test/java/awesomecucumber/utils/ConfigLoader.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/utils/ConfigLoader.java:74:	NonThreadSafeSingleton:	NonThreadSafeSingleton: Singleton is not thread safe
+src/test/java/awesomecucumber/utils/ConfigLoader.java:80:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/utils/ConfigLoader.java:84:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/utils/ConfigLoader.java:88:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'propertyKey' is not assigned and could be declared final
+src/test/java/awesomecucumber/utils/ConfigLoader.java:89:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'prop' could be declared final
+src/test/java/awesomecucumber/utils/ConfigLoader.java:93:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/test/java/awesomecucumber/utils/CookieUtils.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/utils/CookieUtils.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/utils/CookieUtils.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/awesomecucumber/utils/CookieUtils.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/utils/CookieUtils.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/utils/CookieUtils.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cookies' is not assigned and could be declared final
+src/test/java/awesomecucumber/utils/CookieUtils.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'restAssuredCookies' could be declared final
+src/test/java/awesomecucumber/utils/CookieUtils.java:26:	LongVariable:	LongVariable: Avoid excessively long variable names like restAssuredCookies
+src/test/java/awesomecucumber/utils/CookieUtils.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'seleniumCookies' could be declared final
+src/test/java/awesomecucumber/utils/CookieUtils.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'restAssuredCookie' could be declared final
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:13:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:29:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:35:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "****************************************" appears 4 times in this file; the first occurrence is on line 35
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:35:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:36:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:37:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:39:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:40:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'messageBody' could be declared final
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:43:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:49:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:50:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:51:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:53:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:66:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "                     <tr><td style=\"font-size: 36px\" class=\"value\" align=\"center\">" appears 4 times in this file; the first occurrence is on line 66
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:67:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "       \r\n" appears 5 times in this file; the first occurrence is on line 67
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:67:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "</td></tr>\r\n" appears 4 times in this file; the first occurrence is on line 67
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:68:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "                </table>\r\n" appears 4 times in this file; the first occurrence is on line 68
+src/test/java/awesomecucumber/utils/EmailSendUtils.java:68:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "                </td>\r\n" appears 4 times in this file; the first occurrence is on line 68
+src/test/java/awesomecucumber/utils/JacksonUtils.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/utils/JacksonUtils.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/utils/JacksonUtils.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/utils/JacksonUtils.java:20:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/utils/JacksonUtils.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/utils/JacksonUtils.java:22:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'T' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/awesomecucumber/utils/JacksonUtils.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'T' is not assigned and could be declared final
+src/test/java/awesomecucumber/utils/JacksonUtils.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fileName' is not assigned and could be declared final
+src/test/java/awesomecucumber/utils/JacksonUtils.java:22:	ShortVariable:	ShortVariable: Avoid variables with short names like T
+src/test/java/awesomecucumber/utils/JacksonUtils.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'is' could be declared final
+src/test/java/awesomecucumber/utils/JacksonUtils.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like is
+src/test/java/awesomecucumber/utils/JacksonUtils.java:23:	UseProperClassLoader:	UseProperClassLoader: In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/test/java/awesomecucumber/utils/JacksonUtils.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'objectMapper' could be declared final
+src/test/java/awesomecucumber/utils/PropertyUtils.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/utils/PropertyUtils.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/utils/PropertyUtils.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/utils/PropertyUtils.java:21:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/utils/PropertyUtils.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/utils/PropertyUtils.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'filePath' is not assigned and could be declared final
+src/test/java/awesomecucumber/utils/PropertyUtils.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'properties' could be declared final
+src/test/java/awesomecucumber/utils/PropertyUtils.java:25:	CloseResource:	CloseResource: Ensure that resources like this BufferedReader object are closed after use
+src/test/java/awesomecucumber/utils/PropertyUtils.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'reader' could be declared final
+src/test/java/awesomecucumber/utils/PropertyUtils.java:27:	AvoidFileStream:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/awesomecucumber/utils/PropertyUtils.java:32:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/awesomecucumber/utils/PropertyUtils.java:33:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/test/java/awesomecucumber/utils/PropertyUtils.java:33:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/test/java/awesomecucumber/utils/PropertyUtils.java:36:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/awesomecucumber/utils/PropertyUtils.java:37:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/test/java/awesomecucumber/utils/PropertyUtils.java:37:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/test/java/awesomecucumber/utils/ZipUtils.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/utils/ZipUtils.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/awesomecucumber/utils/ZipUtils.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/utils/ZipUtils.java:20:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/utils/ZipUtils.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/utils/ZipUtils.java:30:	SystemPrintln:	SystemPrintln: Usage of System.out/err
