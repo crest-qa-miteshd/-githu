@@ -166,11 +166,12 @@ src/test/java/awesomecucumber/enums/WaitStrategy.java:7:	CommentSize:	CommentSiz
 src/test/java/awesomecucumber/enums/WaitStrategy.java:15:	CommentRequired:	CommentRequired: Enum comments are required
 src/test/java/awesomecucumber/factory/DriverFactory.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
 src/test/java/awesomecucumber/factory/DriverFactory.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
-src/test/java/awesomecucumber/factory/DriverFactory.java:29:	CommentRequired:	CommentRequired: Class comments are required
-src/test/java/awesomecucumber/factory/DriverFactory.java:29:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
-src/test/java/awesomecucumber/factory/DriverFactory.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
-src/test/java/awesomecucumber/factory/DriverFactory.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'browser' is not assigned and could be declared final
-src/test/java/awesomecucumber/factory/DriverFactory.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'driver' could be declared final
+src/test/java/awesomecucumber/factory/DriverFactory.java:27:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/factory/DriverFactory.java:27:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/test/java/awesomecucumber/factory/DriverFactory.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/factory/DriverFactory.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'browser' is not assigned and could be declared final
+src/test/java/awesomecucumber/factory/DriverFactory.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'driver' could be declared final
+src/test/java/awesomecucumber/factory/DriverFactory.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'options' could be declared final
 src/test/java/awesomecucumber/factory/PageFactoryManager.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
 src/test/java/awesomecucumber/factory/PageFactoryManager.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
 src/test/java/awesomecucumber/factory/PageFactoryManager.java:22:	CommentRequired:	CommentRequired: Class comments are required
@@ -189,14 +190,16 @@ src/test/java/awesomecucumber/factory/PageFactoryManager.java:48:	CommentRequire
 src/test/java/awesomecucumber/factory/PageFactoryManager.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driver' is not assigned and could be declared final
 src/test/java/awesomecucumber/hooks/MyHooks.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
 src/test/java/awesomecucumber/hooks/MyHooks.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
-src/test/java/awesomecucumber/hooks/MyHooks.java:26:	CommentRequired:	CommentRequired: Class comments are required
-src/test/java/awesomecucumber/hooks/MyHooks.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:15:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'awesomecucumber.constants.FrameworkConstants.BROWSER_FIREFOX'
+src/test/java/awesomecucumber/hooks/MyHooks.java:27:	CommentRequired:	CommentRequired: Class comments are required
 src/test/java/awesomecucumber/hooks/MyHooks.java:29:	CommentRequired:	CommentRequired: Field comments are required
-src/test/java/awesomecucumber/hooks/MyHooks.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
-src/test/java/awesomecucumber/hooks/MyHooks.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
-src/test/java/awesomecucumber/hooks/MyHooks.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scenario' is not assigned and could be declared final
-src/test/java/awesomecucumber/hooks/MyHooks.java:43:	SystemPrintln:	SystemPrintln: Usage of System.out/err
-src/test/java/awesomecucumber/hooks/MyHooks.java:44:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/test/java/awesomecucumber/hooks/MyHooks.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/test/java/awesomecucumber/hooks/MyHooks.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/awesomecucumber/hooks/MyHooks.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scenario' is not assigned and could be declared final
+src/test/java/awesomecucumber/hooks/MyHooks.java:44:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/test/java/awesomecucumber/hooks/MyHooks.java:45:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/test/java/awesomecucumber/hooks/MyHooks.java:56:	CommentSize:	CommentSize: Comment is too large: Line too long
 src/test/java/awesomecucumber/hooks/MyHooks.java:57:	CommentSize:	CommentSize: Comment is too large: Line too long
 src/test/java/awesomecucumber/hooks/MyHooks.java:63:	LawOfDemeter:	LawOfDemeter: Access to field `driver` on foreign value `context` (degree 1)
 src/test/java/awesomecucumber/hooks/MyHooks.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
@@ -372,7 +375,9 @@ src/test/java/awesomecucumber/pages/StorePage.java:41:	LocalVariableCouldBeFinal
 src/test/java/awesomecucumber/pages/StorePage.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'addToCartBtn' could be declared final
 src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
 src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
-src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:13:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:25:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/awesomecucumber/runners/MyJUnitRunnerTest.java:25:	TestClassWithoutTestCases:	TestClassWithoutTestCases: The class 'MyJUnitRunnerTest' might be a test class, but it contains no test cases.
 src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:1:	CommentSize:	CommentSize: Comment is too large: Too many lines
 src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:7:	CommentSize:	CommentSize: Comment is too large: Line too long
 src/test/java/awesomecucumber/runners/MyTestNGRunnerTest.java:30:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor

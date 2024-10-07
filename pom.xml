@@ -13,7 +13,7 @@
 		<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
 		<!-- <cucumber.version>7.2.3</cucumber.version> -->
 		<cucumber.version>7.2.0</cucumber.version>
-		<selenium.version>4.24.0</selenium.version>
+		<selenium.version>4.25.0</selenium.version>
 		<webdrivermanager.version>4.4.3</webdrivermanager.version>
 		<rest.assured.version>4.4.0</rest.assured.version>
 		<jackson.databind.version>2.13.1</jackson.databind.version>

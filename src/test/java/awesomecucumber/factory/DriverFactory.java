@@ -12,20 +12,16 @@
 
 package awesomecucumber.factory;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import static awesomecucumber.constants.FrameworkConstants.BROWSER_CHROME;
-import static awesomecucumber.constants.FrameworkConstants.BROWSER_FIREFOX;
-import static awesomecucumber.constants.FrameworkConstants.BROWSER_SAFARI;
 import static awesomecucumber.constants.FrameworkConstants.BROWSER_EDGE;
+import static awesomecucumber.constants.FrameworkConstants.BROWSER_SAFARI;
 //import static awesomecucumber.constants.FrameworkConstants.BROWSER_OPERA;
 
 public class DriverFactory {
@@ -49,7 +45,10 @@ public class DriverFactory {
 		case BROWSER_CHROME: {
 //			WebDriverManager.chromedriver().setup();
 //			driver = new ChromeDriver();
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless=new");
+			driver = new ChromeDriver(options);
+			//			driver = new ChromeDriver();
             driver.manage().window().setSize(new Dimension(1440,900));
 			break;
 		}
