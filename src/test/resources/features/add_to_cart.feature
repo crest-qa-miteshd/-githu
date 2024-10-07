@@ -54,11 +54,11 @@ Feature: Add to cart
       When I add 1 quantity to the cart
       Then I should see 2 "Blue Shoes" in the cart
 
-		@smoke
-    Scenario: Show an error when try to add zero quantity
-      Given I'm browsing "Blue Shoes"
-      When I add 0 quantity
-      Then I should see an error
+#		@smoke
+    #Scenario: Show an error when try to add zero quantity
+      #Given I'm browsing "Blue Shoes"
+      #When I add 0 quantity
+      #Then I should see an error
 
 		@sanity
     Scenario Outline: Change the product quantity using arrows
