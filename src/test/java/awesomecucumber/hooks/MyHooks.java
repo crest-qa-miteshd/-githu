@@ -13,16 +13,21 @@
 package awesomecucumber.hooks;
 
 import static awesomecucumber.constants.FrameworkConstants.BROWSER_FIREFOX;
-import static awesomecucumber.constants.FrameworkConstants.BROWSER_CHROME;
 import static awesomecucumber.constants.FrameworkConstants.PARAMETER_BROWSER;
+import static awesomecucumber.constants.FrameworkConstants.BROWSER_CHROME;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import awesomecucumber.context.TestContext;
 import awesomecucumber.factory.DriverFactory;
 import awesomecucumber.utils.ZipUtils;
-import io.cucumber.java.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
+import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Scenario;
 
 public class MyHooks {
 

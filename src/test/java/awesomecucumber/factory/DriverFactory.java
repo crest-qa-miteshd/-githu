@@ -43,13 +43,17 @@ public class DriverFactory {
 		switch (browser) {
 
 		case BROWSER_CHROME: {
-//			WebDriverManager.chromedriver().setup();
-//			driver = new ChromeDriver();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless=new");
-			driver = new ChromeDriver(options);
-			//			driver = new ChromeDriver();
+			
+			driver = new ChromeDriver();
             driver.manage().window().setSize(new Dimension(1440,900));
+            
+            
+            // Head Less Browser config
+//            ChromeOptions options = new ChromeOptions();
+//            options.addArguments("--headless=new");
+//            options.addArguments("--start-maximized");
+//            driver = new ChromeDriver(options);
+//            driver.manage().window().setSize(new Dimension(1440,900));//full screen
 			break;
 		}
 //		case BROWSER_FIREFOX: {
